@@ -4,6 +4,7 @@ import { Row, View } from '@/components/server'
 import MySummary from './MySummary'
 import CardOne from './CardOne'
 import CardTwo from './CardTwo'
+import ChartOne from './ChartOne'
 
 const Home = (): ReactElement => {
   return (
@@ -15,8 +16,9 @@ const Home = (): ReactElement => {
           <CardTwo />
         </View>
         <View className="gap-5 flex-1">
-          <CardOne />
-          <CardTwo />
+          <ChartOne />
+          <ChartOne />
+          <ChartOne />
         </View>
       </Row>
     </View>

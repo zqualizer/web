@@ -14,3 +14,4 @@ export type FontType =
   | 'R.18'
   | 'R.16'
   | 'R.14'
+  | 'R.12'

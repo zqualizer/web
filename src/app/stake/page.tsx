@@ -1,11 +1,14 @@
 import { ReactElement } from 'react'
 
-import { FormText, View } from '@/components/server'
+import { View } from '@/components/server'
+import StakeSummary from './StakeSummary'
+import StakeZqual from './StakeZqual'
 
 const Stake = (): ReactElement => {
   return (
-    <View>
-      <FormText>Stake</FormText>
+    <View className="gap-5">
+      <StakeSummary />
+      <StakeZqual />
     </View>
   )
 }

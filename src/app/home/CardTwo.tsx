@@ -8,32 +8,29 @@ import { FormText, View } from '@/components/server'
 import Card from '@/components/server/Card'
 
 const StyledCardItem = styled(View)`
-  background-color: red;
   border-radius: 20px;
   background-color: ${COLOR.core._800};
   padding: 16px 0;
   align-items: center;
-  border: 2px solid ${COLOR.core._600};
+  justify-content: center;
+  border: 2px solid #373742;
+  gap: 12px;
 `
 
 const CardOne = (): ReactElement => {
   return (
-    <Card className="gap-4">
+    <Card className="gap-4 grid-rows-3">
       <StyledCardItem>
-        <FormText>Total Value Locked</FormText>
-        <FormText>$ 12,210,118,743</FormText>
+        <FormText fontType="R.14">Current APR 12.81%</FormText>
+        <FormText fontType="R.24">Earn rewards in USDT & ZQUAL</FormText>
       </StyledCardItem>
       <StyledCardItem>
-        <FormText>My SHP value</FormText>
-        <FormText>$ 58,600</FormText>
+        <FormText fontType="R.14">Fixed USDT Rewards APR</FormText>
+        <FormText fontType="R.24">5.00%</FormText>
       </StyledCardItem>
       <StyledCardItem>
-        <FormText>My rewards</FormText>
-        <FormText>$ 58,600</FormText>
-      </StyledCardItem>
-      <StyledCardItem>
-        <FormText>My rewards</FormText>
-        <FormText>$ 58,600</FormText>
+        <FormText fontType="R.14">Flexible ZQUAL Rewards APR</FormText>
+        <FormText fontType="R.24">7.81%</FormText>
       </StyledCardItem>
     </Card>
   )

@@ -34,7 +34,7 @@ const LeftMenu = (): ReactElement => {
   const pathname = usePathname()
 
   return (
-    <View className="p-5 gap-2 min-w-80">
+    <View className="p-5 gap-2 min-w-176">
       {_.map(menuList, (item, index) => {
         const isActive =
           pathname === '/'
@@ -48,7 +48,6 @@ const LeftMenu = (): ReactElement => {
                 <FormImg
                   src={isActive ? item.iconActive : item.icon}
                   size={16}
-                  alt={`menuList-${index}`}
                 />
                 <FormText>{item.title}</FormText>
                 {isActive && <IconCaretRight fill="white" size={12} />}

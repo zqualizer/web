@@ -1,9 +1,11 @@
 import './globals.css'
 import { Montserrat } from 'next/font/google'
 import { ReactElement } from 'react'
+
 import Header from './Header'
 import { Row, View } from '@/components/server'
 import LeftMenu from './LeftMenu'
+import AppProvider from './AppProvider'
 
 const font = Montserrat({ subsets: ['latin'], weight: '400' })
 
@@ -20,15 +22,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={font.className}>
-        <View className="gap-5">
-          <Header />
-          <Row className="gap-5">
-            <LeftMenu />
-            <View className="flex-1 items-center">
-              <View className="w-[1280px]">{children}</View>
-            </View>
-          </Row>
-        </View>
+        <AppProvider>
+          <View className="gap-5">
+            <Header />
+            <Row className="gap-5">
+              <LeftMenu />
+              <View className="flex-1">
+                <View className="w-[1280px]">{children}</View>
+              </View>
+            </Row>
+          </View>
+        </AppProvider>
       </body>
     </html>
   )

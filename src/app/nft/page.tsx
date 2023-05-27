@@ -1,13 +1,27 @@
 import { ReactElement } from 'react'
 
-import { FormText, View } from '@/components/server'
+import { Row, View } from '@/components/server'
+import Mint from './Mint'
+import MintInfo from './MintInfo'
+import ChartOne from './ChartOne'
 
-const Shp = (): ReactElement => {
+const NFT = (): ReactElement => {
   return (
     <View>
-      <FormText>Shp</FormText>
+      <Row className="gap-5 pb-28">
+        <View className="flex-1">
+          <Mint />
+        </View>
+        <View className="flex-1">
+          <MintInfo />
+        </View>
+      </Row>
+      <Row className="gap-5">
+        <ChartOne />
+        <ChartOne />
+      </Row>
     </View>
   )
 }
 
-export default Shp
+export default NFT
