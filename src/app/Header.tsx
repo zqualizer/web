@@ -1,12 +1,12 @@
 import { ReactElement } from 'react'
 
-import { FormText, Row, View } from '@/components/server'
+import { FormImg, FormText, Row, View } from '@/components/server'
 
 const Header = (): ReactElement => {
   return (
-    <Row className="justify-between p-5 max-w-[1800px]">
+    <Row className="justify-between p-7 max-w-[1800px]">
       <View>
-        <FormText>Zqualizer</FormText>
+        <FormImg src="/logo.png" size={150} />
       </View>
       <View>
         
