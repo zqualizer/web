@@ -1,6 +1,6 @@
 import { ReactElement } from 'react'
 
-import { FormImg, FormText, Row, View } from '@/components/server'
+import { FormImg, Row, View } from '@/components/server'
 
 const Header = (): ReactElement => {
   return (
