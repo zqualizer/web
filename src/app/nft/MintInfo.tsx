@@ -31,11 +31,11 @@ const MintInfo = (): ReactElement => {
         <Row className="gap-3">
           <StyledCardItem>
             <FormText fontType="B.14">Available Balance</FormText>
-            <FormText fontType="B.20">$ 12,210,118,743</FormText>
+            <FormText fontType="B.20">$ 583</FormText>
           </StyledCardItem>
           <StyledCardItem>
             <FormText fontType="B.14">My Zquilibrium Value</FormText>
-            <FormText fontType="B.20">$ 40,000</FormText>
+            <FormText fontType="B.20">$ 10,000</FormText>
           </StyledCardItem>
         </Row>
         <Row className="gap-3">
@@ -45,7 +45,7 @@ const MintInfo = (): ReactElement => {
           </StyledCardItem>
           <StyledCardItem>
             <FormText fontType="B.14">Zquilibrium Daily Rewards</FormText>
-            <FormText fontType="B.20">$ 84.00</FormText>
+            <FormText fontType="B.20">$ 3.51</FormText>
           </StyledCardItem>
         </Row>
       </Card>

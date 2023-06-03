@@ -22,15 +22,15 @@ const CardOne = (): ReactElement => {
     <Card className="gap-4 grid-rows-3">
       <StyledCardItem>
         <FormText fontType="R.14">Total Value Locked</FormText>
-        <FormText fontType="R.24">$ 12,210,118,743</FormText>
+        <FormText fontType="R.24">$ 47,336,302</FormText>
       </StyledCardItem>
       <StyledCardItem>
         <FormText fontType="R.14">Total Locked xZquilibrium</FormText>
-        <FormText fontType="R.24">$ 6,210,118,743</FormText>
+        <FormText fontType="R.24">$ 12,329,123</FormText>
       </StyledCardItem>
       <StyledCardItem>
         <FormText fontType="R.14">Minimum Value To Mint Zquilibrium</FormText>
-        <FormText fontType="R.24">$ 5,000</FormText>
+        <FormText fontType="R.24">$ 500</FormText>
       </StyledCardItem>
     </Card>
   )

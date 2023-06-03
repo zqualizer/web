@@ -41,7 +41,7 @@ const ChartOne = (): ReactElement => {
     <StyledContainer>
       <View className="gap-2 pb-4">
         <FormText fontType="B.14">Total Staked ZQUAL</FormText>
-        <FormText fontType="B.20">$ 874,142,330,100</FormText>
+        <FormText fontType="B.20">$ 2,473,160</FormText>
       </View>
       <FormChart.Line
         data={data}

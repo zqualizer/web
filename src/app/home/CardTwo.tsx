@@ -21,7 +21,7 @@ const CardOne = (): ReactElement => {
   return (
     <Card className="gap-4 grid-rows-3">
       <StyledCardItem>
-        <FormText fontType="R.14">Current APR 12.81%</FormText>
+        <FormText fontType="R.14">Current APR 16.81%</FormText>
         <FormText fontType="R.24">Earn rewards in USDT & ZQUAL</FormText>
       </StyledCardItem>
       <StyledCardItem>

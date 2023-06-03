@@ -81,7 +81,7 @@ const StakeZqual = (): ReactElement => {
             <FormImg src="/icons/logo-xzqual.svg" size={40} />
             <View className="gap-2">
               <FormText fontType="R.14">Your xZQUAL</FormText>
-              <FormText>98,451</FormText>
+              <FormText>1363.87</FormText>
             </View>
           </Row>
           <FormText>Locked for 122 Days</FormText>
